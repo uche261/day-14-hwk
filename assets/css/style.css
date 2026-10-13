@@ -1,0 +1,100 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 2em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo{
+    width: 50px;
+
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10px;
+    list-style: none;
+}
+.nav-items a{
+    padding: 20px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav-itemsa a:hover{
+    border-color: black;
+    transition: 0.5s ease-in-out;
+    background-color: white;
+    color: black;
+}
+.mobile-menu{
+    cursor: pointer;
+    display: none;}
+    .hi{
+        margin-top: 5px;
+        margin-left: 300px;
+        background-color: grey;
+        color: black;
+    }
+
+.hero{
+    background-color: gray;    
+    height: 240vh;    
+    padding: 20px;
+    display: flex;
+    margin-bottom: 30PX;
+    
+    justify-content: space-evenly;
+
+
+
+}
+.item-right{
+    padding: 30px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px black;}
+
+
+
+
+.button{
+    width: 260px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: black;
+    cursor: pointer;
+    padding-top: 15px;
+    font-size: larger;
+    font-weight: bolder;
+    padding-left:25px ;
+}
+.button:hover{
+    background-color: black;
+    color: cornflowerblue;
+}
+h2{
+    color: blue;
+}
+.thanks{
+    background-color: rgba(128, 128, 128, 0.322);
+    color: blue;
+    margin-left: 300px;
+    font-size: x-large;
+    font-weight: 900;
+}
